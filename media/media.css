@@ -1,0 +1,381 @@
+@media (max-width: 1265px) {
+    /*Header*/
+    .header__text {
+        font-size: 50px;
+    }
+
+    /*Intro*/
+    .intro__text {
+        padding: 140px 115px 130px 110px;
+    }
+
+    /*Features*/
+    .features__coloms {
+        margin: 30px auto 0px;
+    }
+
+    /*Try*/
+    .inputTry {
+        padding: 15px 30px 15px 10px;
+        margin-right: 20px;
+    }
+
+    .fry__form #btn {
+        padding: 15px 70px 15px 70px;
+    }
+
+    .container__foo {
+        max-width: 950px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    /*Header*/
+    .container {
+        max-width: 800px;
+        padding: 45px 15px 45px 15px;
+    }
+
+    .header__text {
+        font-size: 40px;
+    }
+
+    .header__player {
+        margin: 40px auto 30px;
+    }
+
+    /*Intro*/
+    .intro__text {
+        padding: 120px 95px 100px 80px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+        padding: 20px 0 30px 0;
+    }
+
+    .intro__supInfo {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .intro__supInfo .OneText {
+        padding-bottom: 30px;
+    }
+
+    /*Feature*/
+    .feature__suptitle {
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+
+    .feature__title {
+        font-size: 35px;
+    }
+
+    .features__coloms {
+        margin: 50px auto 30px;
+    }
+
+    .features__colom {
+        margin-right: 55px;
+    }
+
+    .feature__colTitle {
+        font-size: 20px;
+        margin: 30px 0 10px 0;
+    }
+
+    .feature__colText {
+        font-size: 15px;
+    }
+
+
+    /*Mac*/
+    .container__mac {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mac__back {
+        width: 100%;
+        margin: 40px 0 20px 0;
+    }
+
+    .mac__img {
+        max-width: 70%;
+    }
+
+    .mac__info {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /*clients*/
+    .card__icon {
+        height: 60px;
+        width: 60px;
+        background-color: #4e4e5e;
+    }
+
+    .card__author {
+        font-size: 19px;
+    }
+
+    .card__potion {
+        margin-top: 10px;
+    }
+
+    .card__info {
+        line-height: 1.5;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    /*Clients*/
+    .clients__logos {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .clients__logo {
+        width: 33%;
+        padding: 0 12px;
+        margin-top: 20px;
+    }
+
+    /*Try*/
+    .fry__form {
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        margin: 40px auto;
+    }
+
+    .inputTry {
+        width: 80%;
+        padding: 12px 26px 12px 10px;
+        margin-right: 0;
+    }
+
+    .fry__form #btn {
+        width: 80%;
+        padding: 12px 60px 15px 60px;
+    }
+
+    /*Footer*/
+    .container__foo {
+        max-width: 800px;
+    }
+
+    .col__title {
+        font-size: 19px;
+    }
+
+    .col__text {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 770px) {
+    /*Header*/
+    .header {
+        min-height: 650px;
+    }
+
+    .header__text {
+        font-size: 30px;
+    }
+
+    .header__icon {
+        padding: 10px 45px;
+        font-size: 14px;
+    }
+
+    .header__player {
+        margin: 30px auto 15px;
+    }
+
+    /*intro*/
+    .intro {
+        min-height: 650px;
+    }
+
+
+    .intro__text {
+        padding: 80px 50px 70px 50px;
+    }
+
+    .intro__description {
+        font-size: 14px;
+    }
+
+    .intro__title {
+        font-size: 30px;
+        padding: 16px 0 20px 0;
+    }
+
+    .intro__supInfo {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .intro__supInfo .OneText {
+        padding-bottom: 25px;
+        font-size: 14px;
+    }
+
+    /*Footers*/
+    .container__foo {
+        padding: 45px 0;
+    }
+
+    .footer__col {
+
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    /*Header*/
+    .header__text {
+        font-size: 25px;
+    }
+
+    .header__player {
+        margin: 20px auto 10px;
+    }
+
+    /*Intro*/
+    .intro {
+        flex-direction: column;
+        min-height: 800px;
+    }
+
+    .intro__text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro__image {
+        width: 100%;
+        height: 300px;
+    }
+
+    /*Features*/
+    .container {
+        padding: 80px 50px 70px 50px;
+
+    }
+
+    .features__coloms {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .feature__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .feature__inf {
+        font-size: 15px;
+        margin: 30px 0 85px 0;
+    }
+
+    .features__colom {
+        width: 100%;
+        margin-top: 45px;
+    }
+
+    .feature__colTitle {
+        font-size: 19px;
+    }
+
+    .feature__colText {
+        color: #999999;
+        font-size: 16px;
+    }
+
+    /*clients*/
+    .clients__cards {
+        flex-direction: column;
+    }
+
+    .clients__card {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .card__icon {
+        height: 50px;
+        width: 50px;
+        background-color: #4e4e5e;
+    }
+
+    .card__author {
+        font-size: 18px;
+    }
+
+    .card__potion {
+        margin-top: 9px;
+    }
+
+    .card__info {
+        line-height: 1.4;
+        margin-top: 18px;
+        font-size: 13px;
+    }
+
+    .clients__logo {
+        width: 50%;
+    }
+
+    #try__title {
+        font-size: 19px;
+    }
+
+    /*Footer*/
+    .container__foo {
+        max-width: 400px;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer__col {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .subscribe {
+        justify-content: center;
+    }
+
+    .col-one::after {
+        position: static;
+    }
+}
+
+@media (max-height: 500px) {
+    .nav-list {
+
+        width: 400px;
+        padding:20px 0 20px 0;
+    }
+    .nav__toggle{
+        right: 35px;
+    }
+    .nav__link{
+        font-size: 15px;
+    }
+    .nav-list li {
+        padding: 4px 0;
+        margin: 5px 0;
+    }
+}

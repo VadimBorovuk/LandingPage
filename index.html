@@ -205,9 +205,9 @@
         </div>
         <div class="fry__form">
             <form action="main.php" id="form">
-                <input type="text" class="inputTry" required placeholder="FULL NAME">
-                <input type="text" class="inputTry" required placeholder="YOUR EMAIL">
-                <input type="text" class="inputTry" required placeholder="PASSWORD">
+                <input type="text" class="inputTry" id="name" required placeholder="FULL NAME">
+                <input type="email" class="inputTry" id="email" required placeholder="YOUR EMAIL">
+                <input type="password" class="inputTry" id="pass" required placeholder="PASSWORD">
                 <button id="btn">Try now</button>
             </form>
         </div>
@@ -255,9 +255,9 @@
             <div class="col__title">
                 Get Newsletter
             </div>
-            <form class="subscribe" method="post">
-                <input class="subscribe__input" type="email" placeholder="EMAIL" name="name">
-                <button class="subscribe__btn" type="submit">
+            <form class="subscribe">
+                <input class="subscribe__input" type="email" required placeholder="EMAIL">
+                <button class="subscribe__btn">
                     <img src="images/footer/10.png" alt="">
                 </button>
             </form>
